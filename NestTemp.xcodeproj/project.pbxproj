@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C995FAFD1EC0DF4E00C9EDFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C995FAFC1EC0DF4E00C9EDFB /* AppDelegate.swift */; };
+		C995FAFF1EC0DF4E00C9EDFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C995FAFE1EC0DF4E00C9EDFB /* Assets.xcassets */; };
+		C995FB021EC0DF4E00C9EDFB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C995FB001EC0DF4E00C9EDFB /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C995FAF91EC0DF4E00C9EDFB /* NestTemp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestTemp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C995FAFC1EC0DF4E00C9EDFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C995FAFE1EC0DF4E00C9EDFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C995FB011EC0DF4E00C9EDFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C995FB031EC0DF4E00C9EDFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C995FAF61EC0DF4E00C9EDFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C995FAF01EC0DF4E00C9EDFB = {
+			isa = PBXGroup;
+			children = (
+				C995FAFB1EC0DF4E00C9EDFB /* NestTemp */,
+				C995FAFA1EC0DF4E00C9EDFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C995FAFA1EC0DF4E00C9EDFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C995FAF91EC0DF4E00C9EDFB /* NestTemp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C995FAFB1EC0DF4E00C9EDFB /* NestTemp */ = {
+			isa = PBXGroup;
+			children = (
+				C995FAFC1EC0DF4E00C9EDFB /* AppDelegate.swift */,
+				C995FAFE1EC0DF4E00C9EDFB /* Assets.xcassets */,
+				C995FB001EC0DF4E00C9EDFB /* MainMenu.xib */,
+				C995FB031EC0DF4E00C9EDFB /* Info.plist */,
+			);
+			path = NestTemp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C995FAF81EC0DF4E00C9EDFB /* NestTemp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C995FB061EC0DF4E00C9EDFB /* Build configuration list for PBXNativeTarget "NestTemp" */;
+			buildPhases = (
+				C995FAF51EC0DF4E00C9EDFB /* Sources */,
+				C995FAF61EC0DF4E00C9EDFB /* Frameworks */,
+				C995FAF71EC0DF4E00C9EDFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NestTemp;
+			productName = NestTemp;
+			productReference = C995FAF91EC0DF4E00C9EDFB /* NestTemp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C995FAF11EC0DF4E00C9EDFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Matt Lampe";
+				TargetAttributes = {
+					C995FAF81EC0DF4E00C9EDFB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UE59LHVBKT;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C995FAF41EC0DF4E00C9EDFB /* Build configuration list for PBXProject "NestTemp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C995FAF01EC0DF4E00C9EDFB;
+			productRefGroup = C995FAFA1EC0DF4E00C9EDFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C995FAF81EC0DF4E00C9EDFB /* NestTemp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C995FAF71EC0DF4E00C9EDFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C995FAFF1EC0DF4E00C9EDFB /* Assets.xcassets in Resources */,
+				C995FB021EC0DF4E00C9EDFB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C995FAF51EC0DF4E00C9EDFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C995FAFD1EC0DF4E00C9EDFB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C995FB001EC0DF4E00C9EDFB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C995FB011EC0DF4E00C9EDFB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C995FB041EC0DF4E00C9EDFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C995FB051EC0DF4E00C9EDFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		C995FB071EC0DF4E00C9EDFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UE59LHVBKT;
+				INFOPLIST_FILE = NestTemp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattlampe.NestTemp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C995FB081EC0DF4E00C9EDFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UE59LHVBKT;
+				INFOPLIST_FILE = NestTemp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mattlampe.NestTemp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C995FAF41EC0DF4E00C9EDFB /* Build configuration list for PBXProject "NestTemp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C995FB041EC0DF4E00C9EDFB /* Debug */,
+				C995FB051EC0DF4E00C9EDFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C995FB061EC0DF4E00C9EDFB /* Build configuration list for PBXNativeTarget "NestTemp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C995FB071EC0DF4E00C9EDFB /* Debug */,
+				C995FB081EC0DF4E00C9EDFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C995FAF11EC0DF4E00C9EDFB /* Project object */;
+}
